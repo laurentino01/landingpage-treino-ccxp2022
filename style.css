@@ -1,0 +1,32 @@
+:root {
+  --amarelo: #ffd900;
+  --roxo: #514988;
+  --rosa: #e33881;
+}
+.img-container img {
+  width: 100px;
+}
+.btn-primary {
+  background-color: var(--roxo) !important;
+  width: 60%;
+}
+.bg-primary {
+  background-color: var(--roxo) !important;
+}
+.bg-secondary {
+  background-color: var(--amarelo) !important;
+}
+.text-primary {
+  color: var(--roxo) !important;
+}
+.text-secondary {
+  color: var(--amarelo) !important;
+}
+.text-third {
+  color: var(--rosa) !important;
+}
+@media (max-width: 768px) {
+  .btn-primary {
+    width: 90%;
+  }
+}
